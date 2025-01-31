@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>khan</title>
+    <!-- css connect -->
+     <link rel="stylesheet" href="style/blog.css">
     <!-- daisyUI link -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -22,7 +24,7 @@
     <!-- header section -->
     <header class="bg-gradient-to-b from-white to-[#EFEBE3]">
         <!-- nav style -->
-        <div class="navbar md:container mx-auto">  
+        <div class="navbar md:container mx-auto mb-20">  
             <div class="navbar-start">
               <div class="dropdown">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -177,17 +179,18 @@
         </section>
 
         <!-- challenge part starts -->
-        <div class="hero bg-[#EFEBE3] rounded-3xl md:container md:mx-auto">
+        <div class="hero bg-[#EFEBE3] mr-4 ml-4 rounded-3xl md:container md:mx-auto relative -mb-52">
           <div class="hero-content flex-col md:gap-24 lg:flex-row">
             <img
               src="c2-assets/vegetable-busket.png"
-              class="max-w-sm rounded-lg mt-8 mb-6 md:mt-12 md:mb-12" />
-            <div>
-              <h1 class="text-5xl font-bold">Get Grocery News!</h1>
+              class="max-w-56 md:max-w-sm rounded-lg mt-8 mb-6 md:mt-12 md:mb-12" />
+            <div class="items-center text-center md:items-start md:text-left">
+              <h1 class="text-4xl font-semibold text-[#179800]
+              md:text-black">Get Grocery News!</h1>
               <p class="py-6">
                 Exclusive training tips, ticks, product deals and more.
               </p>
-              <input class="py-4 pl-4 pr-48 rounded-lg mb-3 md:mb-9" placeholder="Enter email...." type="text"><br>
+              <input class="py-4 pl-4 pr-32 md:pr-48 rounded-lg mb-3 md:mb-9" placeholder="Enter email...." type="text"><br>
               <button class="btn bg-[#179800] text-white py-2 px-7">Subscribe</button>
             </div>
           </div>
@@ -196,7 +199,8 @@
 
      <!-- footer section -->
      <footer class="bg-[#179800]">
-      <div class="footer text-base-content p-10 md:pt-80 md:container md:mx-auto">
+     <div class="">
+      <div class="footer text-base-content p-10 pt-72 md:pt-80 md:container md:mx-auto">
         <nav class="md:mr-36">
           <img src="c2-assets/Vector.png" alt="">
           <p class="text-white">Discover a world of treats, toys, and <br> essentials handpicked for your furry <br> friends</p>
@@ -216,6 +220,7 @@
           </div>
         </nav>
       </div>
+     </div>
     </footer>
     
 </body>

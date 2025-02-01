@@ -24,35 +24,38 @@
     <!-- header section -->
     <header class="bg-gradient-to-b from-white to-[#EFEBE3]">
         <!-- nav style -->
-        <div class="navbar md:container mx-auto mb-20">  
+        <div class="navbar md:container mx-auto mb-20 border-b-2 border-b-green-300 md:border-none">  
+          <div class="md:hidden">
+            <img class="flex pl-2 lg:hidden" src="c2-assets/logo-footer.png" alt="">
+           </div>
             <div class="navbar-start">
-              <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor">
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M4 6h16M4 12h8m-8 6h16" />
-                  </svg>
+                <div class="dropdown">
+                  <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-5 w-5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor">
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                  </div>
+                  <ul
+                    tabindex="0"
+                    class="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                    <li><a>Product</a></li>
+                    <li>
+                      <a>Services</a>
+                    </li>
+                    <li><a>Contact us</a></li>
+                  </ul>
                 </div>
-                <ul
-                  tabindex="0"
-                  class="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                  <li><a>Product</a></li>
-                  <li>
-                    <a>Services</a>
-                  </li>
-                  <li><a>Contact us</a></li>
-                </ul>
-              </div>
               <img class="hidden lg:flex" src="c2-assets/logo-header.png" alt="">
-              <img class="flex lg:hidden" src="c2-assets/logo-footer.png" alt="">
+              <img class="flex hidden lg:hidden" src="c2-assets/logo-footer.png" alt="">
             </div>
             <div class="navbar-center hidden lg:flex">
               <ul class="menu menu-horizontal px-1">
@@ -141,14 +144,14 @@
 
 
        <!-- populer product -->  
-       <div class="hero bg-[#EFEBE3] min-h-screen pb-12 md:pb-32 mb-12 md:mb-32">
+       <div class="hero bg-[#EFEBE3] max-w-md md:min-h-screen pb-12 md:pb-32 mb-12 md:mb-32">
        <div>
         <h2 class="font-semibold text-4xl text-[#179800] pb-8 pl-5 pt-12 md:pt-32 md:pb-4 ">Popular Products</h2>
         <div class="hero-content flex-col lg:flex-row">
           <div>
             <img
             src="c2-assets/bannanaa.png"
-            class="max-w-sm rounded-lg shadow-2xl" />
+            class="max-w-sm md:max-w-md rounded-lg" />
           </div>
           <div>
             <div class="grid grid-cols-2 md:grid-cols-3 gap-3">
@@ -167,7 +170,7 @@
                 <div><img class="py-4 pl-4 pr-1" src="c2-assets/tomato.png" alt=""></div>
                 <div class=" py-5 pl-4 pr-9">
                   <p><img class="inline" src="c2-assets/star.png" alt=""> 4.5</p>
-                  <h4>Onion 1 KG</h4>
+                  <h4>Tomato 1 KG</h4>
                   <p>$39.99</p>
                 </div>
               </div>
@@ -176,7 +179,7 @@
                 <div><img class="py-4 pl-4 pr-1" src="c2-assets/potato.png" alt=""></div>
                 <div class=" py-5 pl-4 pr-9">
                   <p><img class="inline" src="c2-assets/star.png" alt=""> 4.5</p>
-                  <h4>Onion 1 KG</h4>
+                  <h4>Potato 1 KG</h4>
                   <p>$39.99</p>
                 </div>
               </div>
@@ -185,7 +188,7 @@
                 <div><img class="py-4 pl-4 pr-1" src="c2-assets/tomato.png" alt=""></div>
                 <div class=" py-5 pl-4 pr-9">
                   <p><img class="inline" src="c2-assets/star.png" alt=""> 4.5</p>
-                  <h4>Onion 1 KG</h4>
+                  <h4>Tomato 1 KG</h4>
                   <p>$39.99</p>
                 </div>
               </div>
@@ -194,7 +197,7 @@
                 <div><img class="py-4 pl-4 pr-1" src="c2-assets/potato.png" alt=""></div>
                 <div class=" py-5 pl-4 pr-9">
                   <p><img class="inline" src="c2-assets/star.png" alt=""> 4.5</p>
-                  <h4>Onion 1 KG</h4>
+                  <h4>Potato 1 KG</h4>
                   <p>$39.99</p>
                 </div>
               </div>
@@ -212,7 +215,7 @@
                   <div><img class="py-4 pl-4 pr-1" src="c2-assets/potato.png" alt=""></div>
                   <div class=" py-5 pl-4 pr-9">
                     <p><img class="inline" src="c2-assets/star.png" alt=""> 4.5</p>
-                    <h4>Onion 1 KG</h4>
+                    <h4>Potato 1 KG</h4>
                     <p>$39.99</p>
                   </div>
                 </div>
@@ -230,7 +233,7 @@
                   <div><img class="py-4 pl-4 pr-1" src="c2-assets/tomato.png" alt=""></div>
                   <div class=" py-5 pl-4 pr-9">
                     <p><img class="inline" src="c2-assets/star.png" alt=""> 4.5</p>
-                    <h4>Onion 1 KG</h4>
+                    <h4>Tomato 1 KG</h4>
                     <p>$39.99</p>
                   </div>
                 </div>
@@ -289,7 +292,7 @@
           <div class="hero-content flex-col md:gap-24 lg:flex-row">
             <img
               src="c2-assets/vegetable-busket.png"
-              class="max-w-56 md:max-w-sm rounded-lg mt-8 mb-6 md:mt-12 md:mb-12" />
+              class="max-w-52 md:max-w-sm rounded-lg mt-8 mb-6 md:mt-12 md:mb-12" />
             <div class="items-center text-center md:items-start md:text-left">
               <h1 class="text-4xl font-semibold text-[#179800]
               md:text-black">Get Grocery News!</h1>
